@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-14T21:15:02 IST" name="VtigerSuite" finished-at="2024-08-14T21:15:29 IST" duration-ms="27523">
+    <groups>
+    </groups>
+    <test started-at="2024-08-14T21:15:02 IST" name="VtigerAppTest" finished-at="2024-08-14T21:15:29 IST" duration-ms="27523">
+      <class name="com.vtiger.testCases.TC_LoginTest_001">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.vtiger.testCases.TC_LoginTest_001@4efac082]" started-at="2024-08-14T21:15:02 IST" name="setup" finished-at="2024-08-14T21:15:04 IST" duration-ms="2743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTest()[pri:0, instance:com.vtiger.testCases.TC_LoginTest_001@4efac082]" started-at="2024-08-14T21:15:04 IST" name="LoginTest" finished-at="2024-08-14T21:15:07 IST" duration-ms="2979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.vtiger.testCases.TC_LoginTest_001@4efac082]" started-at="2024-08-14T21:15:07 IST" name="teardown" finished-at="2024-08-14T21:15:09 IST" duration-ms="1935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.vtiger.testCases.TC_LoginTest_001 -->
+      <class name="com.vtiger.testCases.TC_CreateOrgni_002">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.vtiger.testCases.TC_CreateOrgni_002@53aac487]" started-at="2024-08-14T21:15:09 IST" name="setup" finished-at="2024-08-14T21:15:12 IST" duration-ms="2539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createOrganization()[pri:0, instance:com.vtiger.testCases.TC_CreateOrgni_002@53aac487]" started-at="2024-08-14T21:15:12 IST" name="createOrganization" finished-at="2024-08-14T21:15:28 IST" duration-ms="16221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.vtiger.testCases.TC_CreateOrgni_002@53aac487]" started-at="2024-08-14T21:15:28 IST" name="teardown" finished-at="2024-08-14T21:15:29 IST" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.vtiger.testCases.TC_CreateOrgni_002 -->
+    </test> <!-- VtigerAppTest -->
+  </suite> <!-- VtigerSuite -->
+</testng-results>
